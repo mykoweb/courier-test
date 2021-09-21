@@ -134,6 +134,7 @@ GEM
       sprockets (>= 3.0.0)
     sqlite3 (1.4.2)
     thor (1.1.0)
+    trycourier (1.2.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     websocket-driver (0.7.5)
@@ -152,6 +153,7 @@ DEPENDENCIES
   rails (~> 6.1.4, >= 6.1.4.1)
   spring
   sqlite3 (~> 1.4)
+  trycourier
   tzinfo-data
 
 RUBY VERSION
