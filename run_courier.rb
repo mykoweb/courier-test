@@ -1,8 +1,3 @@
-# README
-
-## Steps to send an email
-
-```ruby
 courier_api_key = ENV['COURIER_API_TEST_KEY']
 client = Courier::Client.new courier_api_key
 res = client.send({
@@ -18,4 +13,3 @@ res = client.send({
 
 puts res.code # the HTTP response code
 puts res.message_id # if 200, this will be the Courier message ID for this notification
-```
